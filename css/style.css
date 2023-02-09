@@ -16,7 +16,7 @@ body {
     max-width: 1366px;
     background-color: rgb(255, 211, 15);
     min-height: 100vh;
-    height: 100%;
+    height: auto;
     font-size: clamp(50px, 2vw, 70px);
     font-weight: bold;
     text-align: center;
