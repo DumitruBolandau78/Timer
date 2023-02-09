@@ -16,7 +16,7 @@ body {
     max-width: 1366px;
     background-color: rgb(255, 211, 15);
     height: 100vh;
-    font-size: 70px;
+    font-size: clamp(50px, 2vw, 70px);
     font-weight: bold;
     text-align: center;
 }
@@ -33,10 +33,13 @@ body {
 }
 
 .buttons button {
-    padding: 20px 70px;
+    padding: 20px 0;
+    max-width: 250px;
+    width: 100%;
     margin: 0 10px;
     font-size: 30px;
     background-color: orange;
     outline: none;
     color: white;
+    margin-bottom: 10px;
 }
